@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+img{
+	border: 1px solid black;
+}
+
+@import url(
+	https://fonts.google.com/specimen/Merriweather
+	);
+
+@import url(
+		https://fonts.google.com/specimen/Merriweather+Sans
+		);
+
+.menu-list, h2, .thumbnail, .footer-list{
+	font-family: "Merriweather+sans";
+	font-size: 20px;
+}
+
+.heading{
+	font-family: "Merriweather+sans", Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.ten-list{
+	font-family: "Merriweather", Times, serif;
+	font-size: 16px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+hr{
+ height: 3px;
+ width: 90%;
+ color: black;
+ background-color: black;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.icons{
+  width: 20px;
+  height: 20px;
+}
+
+.standard{
+  width: 700px;
+}
+
+#article1{
+  width: 800px;
+  height: 400px;
+  color: white;
+	border: 1px solid black;
+}
+
+#article2{
+  width: 400px;
+  height: 400px;
+  color: black;
+	border: 1px solid black;
+}
+
+
+/* Colour Coded Content blocks */
+nav, aside, footer, section, article {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+}
+
+aside {
+    background-color: #FFC675;
+}
+
+article {
+    background-color: #E89C6C;
+}
+
+footer {
+    background-color: #FF957E;
+}
+
+section {
+    background-color: ##FFE2B8;
+}
