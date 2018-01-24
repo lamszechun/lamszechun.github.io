@@ -1,0 +1,128 @@
+* { padding: 0; margin: 0; }
+
+img{
+	border: 1px solid black;
+}
+
+@import url(
+	https://fonts.google.com/specimen/Merriweather
+	);
+
+@import url(
+		https://fonts.google.com/specimen/Merriweather+Sans
+		);
+
+.menu-list, h2, .thumbnail, .footer-list{
+	font-family: "Merriweather+sans";
+	font-size: 20px;
+}
+
+.menu-bar{
+	width: 80px;
+	outline: 1px solid black;
+}
+
+.heading{
+	font-family: "Merriweather+sans", Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.ten-list{
+	font-family: "Merriweather", Times, serif;
+	font-size: 16px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.icons{
+  width: 20px;
+  height: 20px;
+}
+
+.standard{
+  width: 700px;
+}
+
+.block{
+	display: block;
+	padding: 10px;
+}
+
+.art1{
+	width: 700px;
+	height: 380px;
+	float: left;
+	border: 5px solid yellow;
+}
+
+.art2{
+	width: 500px;
+	height: 380px;
+	float: right;
+	border: 5px solid yellow;
+}
+
+#article1-img{
+	width: 100%;
+	height: 100%;
+  color: black;
+	border: 1px solid black;
+}
+
+#article2-img{
+	width: 100%;
+	height: 100%;
+  color: black;
+	border: 1px solid black;
+}
+
+
+.clear{
+	clear: both;
+}
+
+a:hover{
+	color: red;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+
+/* Colour Coded Content blocks */
+nav, aside, footer, section, article {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+}
+
+aside {
+    background-color: #FFC675;
+}
+
+article {
+    background-color: #E89C6C;
+}
+
+footer {
+    background-color: #FF957E;
+}
+
+section {
+    background-color: ##FFE2B8;
+}
